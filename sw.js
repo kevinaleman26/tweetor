@@ -15,8 +15,8 @@ const APP_SHELL = [
     'img/avatars/hulk.jpg',
     'js/app.js',
     'js/sw-utils.js',
-    'index.html',
-    '/'
+    'index.html'
+    //'/'
 ];
 
 const INMUTABLE_SHELL = [
