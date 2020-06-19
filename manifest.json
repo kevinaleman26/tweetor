@@ -3,7 +3,7 @@
     "name": "twittor heroes",
     "star_url": "index.html",
     "background_color": "#3498db",
-    "display": "standalone",
+    "display": "fullscreen",
     "orientation": "portrait",
     "theme_color": "#3498db",
     "icons": [
