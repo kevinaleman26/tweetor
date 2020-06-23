@@ -2,7 +2,6 @@
     "short_name": "Twittor",
     "name": "twittor heroes",
     "star_url": "index.html",
-    "scope": "/",
     "background_color": "#3498db",
     "display": "standalone",
     "orientation": "portrait",
