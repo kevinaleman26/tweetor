@@ -51,6 +51,8 @@ self.addEventListener('activate', e => {
     });
 
     e.waitUntil(respuesta);
+
+    self.clients.claim();
 });
 
 self.addEventListener('fetch', e => {
