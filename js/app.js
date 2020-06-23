@@ -139,6 +139,10 @@ postBtn.on('click', function() {
 
 window.addEventListener('beforeinstallprompt', event => {
     event.preventDefault();
+    console.log(event.platforms);
+    event.userChoice.then(function(choiceResult) { 
+        console.log(choiceResult.outcome); // either "accepted" or "dismissed"
+      }, handleError); 
     var button = document.querySelector('button');
     button.removeAttribute('hidden');
     button.addEventListener('click', () => {
