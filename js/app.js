@@ -170,3 +170,5 @@ export const pwaTrackingListeners = () => {
       fireTracking(track);
     });
   };
+
+  pwaTrackingListeners();
