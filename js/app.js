@@ -137,7 +137,7 @@ postBtn.on('click', function() {
 
 });
 
-export const pwaTrackingListeners = () => {
+const pwaTrackingListeners = () => {
     const fireAddToHomeScreenImpression = event => {
       fireTracking("Add to homescreen shown");
       //will not work for chrome, untill fixed
